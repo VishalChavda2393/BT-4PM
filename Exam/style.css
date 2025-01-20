@@ -1,0 +1,25 @@
+body{
+    overflow-x: hidden;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 50vh;
+    object-fit: cover !important;
+}
+
+.dropdown-menu{
+    display: none;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+
+.card-body img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50% !important;
+}
