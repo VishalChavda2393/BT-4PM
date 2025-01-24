@@ -1,0 +1,167 @@
+.custom-tooltip {
+  --bs-tooltip-bg: var(--bd-violet-bg);
+  --bs-tooltip-color: var(--bs-white);
+}
+body {
+  overflow-x: hidden !important;
+}
+
+.logo-img img {
+  width: 120px !important;
+  height: 40px !important;
+  object-fit: cover;
+}
+
+.dropdown-menu {
+  display: none;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.badge {
+  font-size: 10px !important;
+}
+
+.social-icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 5px;
+  color: white;
+  font-size: 14px;
+}
+
+.facebook {
+  background-color: #3b5998;
+}
+.twitter {
+  background-color: #1da1f2;
+}
+.pinterest {
+  background-color: #bd081c;
+}
+.linkedin {
+  background-color: #0077b5;
+}
+.ok {
+  background-color: #f58220;
+}
+.whatsapp {
+  background-color: #25d366;
+}
+.telegram {
+  background-color: #0088cc;
+}
+.viber {
+  background-color: #665cac;
+}
+.vk {
+  background-color: #4c75a3;
+}
+
+.crat-right ul li {
+  line-height: 500px !important;
+  /* border: solid black; */
+}
+
+/* swaper */
+.bestselling ul li a {
+  font-size: 12px;
+  padding: 6px;
+}
+
+.bestselling ul li:hover {
+  background-color: #dc3545;
+  transition: all 0.2s ease-in-out;
+  color: #f8d7da;
+}
+
+/* slider */
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-wrapper {
+  padding: 10px;
+}
+
+.swiper-slide {
+  position: relative;
+  text-align: center;
+  font-size: 18px;
+  width: 210px !important;
+  height: 219px !important;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain !important;
+}
+
+.swiper-sen {
+  opacity: 0;
+}
+.swiper-slide:hover .swiper-sen {
+  opacity: 1;
+  z-index: 2;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image-pop {
+  position: absolute;
+  display: block;
+  top: 15px;
+  left: 35px;
+  z-index: 1;
+}
+.image-pop .pop-p {
+  padding: 2px;
+  font-size: 10px;
+  font-weight: 600;
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.original-image,
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.5s ease;
+}
+
+.hover-image {
+  opacity: 0;
+  object-fit: cover !important;
+}
+
+.image-container:hover .hover-image {
+  opacity: 1;
+}
+
+.image-container:hover .original-image {
+  opacity: 1;
+}
+
+.image-text {
+  border: 2px solid black;
+}

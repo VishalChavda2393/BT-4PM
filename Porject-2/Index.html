@@ -1,0 +1,1290 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="/style-page/Index.css">
+  <!-- icons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- animations -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- silder -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <div class="container-fulid">
+    <!-- navbar -->
+    <div class="container-fulid mt-2 p-2">
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-between    align-items-center fixed-top">
+        <div class="container-fluid ">
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link text-dark fw-bolder" href="#">Home<i class='bx bx-chevron-down'></i></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Home Main</a></li>
+                  <li><a class="dropdown-item" href="#">Home - Dynamic</a></li>
+                  <li><a class="dropdown-item" href="#">Home Simple</a></li>
+                  <li><a class="dropdown-item" href="#">Full Screen Slider</a></li>
+                  <li><a class="dropdown-item" href="#">Parallex</a></li>
+                  <li><a class="dropdown-item" href="#">Products Landing</a></li>
+                  <li><a class="dropdown-item" href="#">Campaign</a></li>
+                  <li><a class="dropdown-item" href="#">Video</a></li>
+                  <li><a class="dropdown-item" href="#">Personal</a></li>
+                  <li><a class="dropdown-item" href="#">Split</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-dark fw-bolder" href="#">SHOP<i class='bx bx-chevron-down'></i></a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-item d-flex p-4 w-100 justify-content-between">
+                    <div>
+                      <span class="fw-bolder"><a href="#" class="nav-link">CATALOG</a></span>
+                      <ul>
+                        <li class="list-inline"><a href="#" class="nav-link">style 1</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">style 2</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">style 3</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">style 4</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">style 5</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">style 6</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">load More</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Infinite Scroll</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">PaginationDefault</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <p class="fw-bolder"><a href="#" class="nav-link">SHOP LAYOUT</a></p>
+                      <ul>
+                        <li class="list-inline"><a href="#" class="nav-link">Default</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Left Sidebar</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Right Sidebar</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Top sidebar</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Fixed Sidebar (left)</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Full Witdh (No-sidebar)</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Masonry Grid</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Shop category Page</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Shop Top Page</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Shop Brand Page</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <p class="fw-bolder"><a href="#" class="nav-link">SHOP COLUMNS</a></p>
+                      <ul>
+                        <li class="list-inline"><a href="#" class="nav-link">List type</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Column Three</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Column Four</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Column Six (wide)</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <p class="fw-bolder"><a href="#" class="nav-link">HERO TYPE</a></p>
+                      <ul>
+                        <li class="list-inline"><a href="#" class="nav-link">Category List</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Category Silder</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Hero Small</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Hero Breadcrums</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Shop No title</a></li>
+                      </ul>
+                    </div>
+                    <div>
+                      <p class="fw-bolder"><a href="#" class="nav-link">SHOP PAGE</a></p>
+                      <ul>
+                        <li class="list-inline"><a href="#" class="nav-link">Cheak Out</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Cheakout Split</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">My Account (2 Column)</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Order Tracking</a></li>
+                        <li class="list-inline"><a href="#" class="nav-link">Wishlist</a></li>
+                      </ul>
+                    </div>
+                  </li>
+
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-dark fw-bolder dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  PRODUCTS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-dark fw-bolder" href="#">TEMPLATES<i class='bx bx-chevron-down'></i></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-dark fw-bolder" href="#">PAGES<i class='bx bx-chevron-down'></i></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-dark fw-bolder" href="#">MEGA<i class='bx bx-chevron-down'></i></a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="logo-img ">
+          <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/240-logo.png" alt=""
+            class="img-fulid">
+        </div>
+        <div class="container-fluid  justify-content-end ">
+          <div class="ioncs fs-3 pe-2 ">
+            <i class='bx bx-search pe-2'></i>
+            <span class="position-relative">
+              <i class='bx bx-shopping-bag'></i>
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger fs-6">
+                0
+              </span>
+            </span>
+            <span class="position-relative">
+              <i class='bx bx-heart pe-2'></i>
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger fs-6">
+                0
+              </span>
+            </span>
+            <span class="position-relative">
+              <i class='bx bx-refresh pe-2'></i>
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger fs-6">
+                0
+              </span>
+            </span>
+            <i class='bx bx-user pe-2'></i>
+            <i class='bx bxs-bell pe-2 text-warning'></i>
+      </nav>
+    </div>
+    <!-- slider -->
+    <div class="container-fulid ">
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/slideshow-1920-31.png"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block" data-aos="fade-up" data-aos-duration="2000">
+              <div class="carousel-caption-1">
+                <h5 class="car-1">Baraati Edit 2023</h5>
+                <p class="fs-3 h3 text-light">New Generation Approch</p>
+                <div class="btn btn-success px-5">Cheak Now</div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/slideshow-1920-24.png"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption d-none d-md-block" data-aos="fade-up" data-aos-duration="2000">
+                <div class="carousel-caption-2">
+                  <h5 class="car-2">Pink Elegance</h5>
+                  <p class="fs-3 h3 text-light">New Generation Approch</p>
+                  <div class="btn btn-success px-5 ms-5">Cheak Now</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/slideshow-1920-16.png"
+              class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption d-none d-md-block" data-aos="fade-up" data-aos-duration="2000">
+                <div class="carousel-caption-3">
+                  <h5 class="car-3">Floral Patterend Dresses</h5>
+                  <p class="fs-5 h5 text-light pe-5">Reflect nature's patterns on the street!</p>
+                  <div class="btn btn-primary px-5">Cheak Products</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="ca rousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <p class="bg-success text-light d-flex justify-content-center align-items-center py-2">BIGGEST CELEBRATION OFFER
+        30% OFF ON ANARKALI COLLECTION - <span class="fw-bolder"><a href="#" class="text-light">SHOP NOW</a></span></p>
+    </div>
+
+    <!--Products  -->
+    <div class="row p-4">
+      <div class="col-xl-3 col-md-6 col-12 mt-5">
+        <div class="Products-box  ">
+          <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/21-768x768.png" alt=""
+            class="w-100">
+          <div class="Products-box-2 ps-4 pt-2 rounded" data-aos="fade-up" data-aos-duration="3000">
+            <p class="fw-bold rounded">KURTA PANT SET</p>
+            <span>Bestseller</span>
+            <p>10 Products</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-xl-3 col-md-6 col-12 mt-5">
+        <div class="Products-box  ">
+          <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/24-768x768.png" alt=""
+            class="w-100">
+          <div class="Products-box-2 ps-4 pt-2 rounded">
+            <p class="fw-bold rounded">KURTA PANT SET</p>
+            <span>Bestseller</span>
+            <p>10 Products</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-xl-3 col-md-6 col-12 mt-5">
+        <div class="Products-box  ">
+          <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/23-768x768.png" alt=""
+            class="w-100">
+          <div class="Products-box-2 ps-4 pt-2 rounded">
+            <p class="fw-bold">ETHIC WEAR</p>
+            <span>Bestseller</span>
+            <p>10 Products</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-xl-3 col-md-6 col-12 mt-5">
+        <div class="Products-box  ">
+          <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/20-768x768.png" alt=""
+            class="w-100">
+          <div class="Products-box-2 ps-4 pt-2 rounded">
+            <p class="fw-bold rounded">KURTA PANT SET</p>
+            <span>Bestseller</span>
+            <p>10 Products</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- toolitp -->
+    <div class="container-fluid my-5">
+      <div class="row g-3">
+        <!-- Card Item -->
+        <div class="col-12 col-md-4 col-lg-2 category-car">
+          <div class="category-card">
+            <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product4-1-100x100.jpg"
+              alt="Women T-Shirts">
+            <span class="mx-2">WOMEN T-SHIRTS</span>
+            <span class="badge">18</span>
+          </div>
+          <div class="category-con bg-light p-3">
+            A brand that stands out with its modern designs and quality materials that combine elegance and comfort in
+            women's clothing, it completes the elegance of women in daily life and special moments with its unique style
+            and attention to details.
+          </div>
+        </div>
+        <!-- Repeat for other categories -->
+        <div class="col-12 col-md-4 col-lg-2 category-car">
+          <div class="category-card">
+            <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-30-100x100.jpg"
+              alt="Men T-Shirts">
+            <span class="mx-2">MEN T-SHIRTS</span>
+            <span class="badge">15</span>
+          </div>
+          <div class="category-con bg-light p-3">
+            A brand that stands out with its modern designs and quality materials that combine elegance and comfort in
+            women's clothing, it completes the elegance of women in daily life and special moments with its unique style
+            and attention to details.
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2 category-car">
+          <div class="category-card">
+            <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product5-25-100x100.jpg"
+              alt="Kids">
+            <span class="mx-2">KIDS</span>
+            <span class="badge">15</span>
+          </div>
+          <div class="category-con bg-light p-3">
+            A brand that stands out with its modern designs and quality materials that combine elegance and comfort in
+            women's clothing, it completes the elegance of women in daily life and special moments with its unique style
+            and attention to details.
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2 category-car">
+          <div class="category-card">
+            <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product3-1-100x100.jpg"
+              alt="Festive Wear">
+            <span class="mx-2">FESTIVE WEAR</span>
+            <span class="badge">19</span>
+          </div>
+          <div class="category-con bg-light p-3">
+            A brand that stands out with its modern designs and quality materials that combine elegance and comfort in
+            women's clothing, it completes the elegance of women in daily life and special moments with its unique style
+            and attention to details.
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2 category-car">
+          <div class="category-card">
+            <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product5-16-100x100.jpg"
+              alt="Women T-Shirts">
+            <span class="mx-2">ETHIC WEAR</span>
+            <span class="badge">14</span>
+          </div>
+          <div class="category-con bg-light p-3">
+            A brand that stands out with its modern designs and quality materials that combine elegance and comfort in
+            women's clothing, it completes the elegance of women in daily life and special moments with its unique style
+            and attention to details.
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2 category-car">
+          <div class="category-card">
+            <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product4-1-100x100.jpg"
+              alt="Women T-Shirts">
+            <span class="mx-2">MEN</span>
+            <span class="badge">16</span>
+          </div>
+          <div class="category-con bg-light p-3">
+            A brand that stands out with its modern designs and quality materials that combine elegance and comfort in
+            women's clothing, it completes the elegance of women in daily life and special moments with its unique style
+            and attention to details.
+          </div>
+        </div>
+        <!-- Add more categories as needed -->
+      </div>
+      <!-- ADD ROW SCECONDS -->
+      <div class="container-fluid mt-3">
+        <div class="row g-3">
+          <a></a>
+          <div class="col-12 col-md-4 col-lg-2 category-car">
+            <div class="category-card">
+              <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-22-100x100.jpg"
+                alt="Women T-Shirts">
+              <span class="mx-2">WOMEN </span>
+              <span class="badge">20</span>
+            </div>
+            <div class="category-con bg-light p-3">
+              A brand that stands out with its modern designs and quality materials that combine elegance and comfort in
+              women's clothing, it completes the elegance of women in daily life and special moments with its unique
+              style and attention to details.
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2 category-car">
+            <div class="category-card">
+              <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product5-23-100x100.jpg"
+                alt="Men T-Shirts">
+              <span class="mx-2">KURTA PANT SET</span>
+              <span class="badge">10</span>
+            </div>
+            <div class="category-con bg-light p-3">
+              A brand that stands out with its modern designs and quality materials that combine elegance and comfort in
+              women's clothing, it completes the elegance of women in daily life and special moments with its unique
+              style and attention to details.
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2 category-car">
+            <div class="category-card">
+              <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product4-32-100x100.jpg"
+                alt="Kids">
+              <span class="mx-2">LEHENGA SET</span>
+              <span class="badge">12</span>
+            </div>
+            <div class="category-con bg-light p-3">
+              A brand that stands out with its modern designs and quality materials that combine elegance and comfort in
+              women's clothing, it completes the elegance of women in daily life and special moments with its unique
+              style and attention to details.
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2 category-car">
+            <div class="category-card">
+              <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product3-35-100x100.jpg"
+                alt="Festive Wear">
+              <span class="mx-2">SHARRA SET</span>
+              <span class="badge">9</span>
+            </div>
+            <div class="category-con bg-light p-3">
+              A brand that stands out with its modern designs and quality materials that combine elegance and comfort in
+              women's clothing, it completes the elegance of women in daily life and special moments with its unique
+              style and attention to details.
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2 category-car">
+            <div class="category-card">
+              <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product5-15-100x100.jpg"
+                alt="Women T-Shirts">
+              <span class="mx-2">SHERWANIS</span>
+              <span class="badge">7</span>
+            </div>
+            <div class="category-con bg-light p-3">
+              A brand that stands out with its modern designs and quality materials that combine elegance and comfort in
+              women's clothing, it completes the elegance of women in daily life and special moments with its unique
+              style and attention to details.
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-2 category-car">
+            <div class="category-card">
+              <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product4-12-100x100.jpg"
+                alt="Women T-Shirts">
+              <span class="mx-2">LENHANGAS</span>
+              <span class="badge">12</span>
+            </div>
+            <div class="category-con bg-light p-3">
+              A brand that stands out with its modern designs and quality materials that combine elegance and comfort in
+              women's clothing, it completes the elegance of women in daily life and special moments with its unique
+              style and attention to details.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- Trending Best Selling Products-->
+    <div class="container-fulid">
+      <div class="bestselling d-flex justify-content-between align-items-center p-2">
+        <div class="h3">Trending Best Selling Products</div>
+        <div>
+          <ul class="d-flex gap-3">
+            <li class="list-inline"><a href="#" class="nav-link fw-bold">All PRODUCTS</a></li>
+            <li class="list-inline"><a href="#" class="nav-link fw-bold">FEATURED</a></li>
+            <li class="list-inline"><a href="#" class="nav-link fw-bold">BEST SELLER</a></li>
+            <li class="list-inline"><a href="#" class="nav-link fw-bold">ON SALE</a></li>
+            <li class="list-inline"><a href="#" class="nav-link fw-bold">IN STOCK</a></li>
+          </ul>
+        </div>
+        <div class="d-flex ">
+          <p><a href="#" class="nav-link fw-noraml">All PRODUCTS</a></p> <i class='bx bx-right-arrow-alt fs-3 ms-2'></i>
+        </div>
+
+      </div>
+
+
+      <!-- Swiper -->
+      <div class="best-products p-3">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <a href="/CradPage.html">
+                <div class="image-container">
+                  <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-24-450x600.jpg"
+                    alt="Original Image" class="original-image">
+                  <div class="image-pop">
+                    <p class="pop-p">S A L E !</p>
+                    <span class=" pop-p p-2">1 7 %</span>
+                  </div>
+                  <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-22-450x600.jpg"
+                    alt="Hover Image" class="hover-image">
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-container">
+                <a href="/CradPage.html">
+                  <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-23-450x600.jpg"
+                    alt="Original Image" class="original-image">
+                  <div class="image-pop">
+                    <p class="pop-p">S A L E !</p>
+                    <span class=" pop-p p-2">1 7 %</span>
+                  </div>
+                  <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-21-450x600.jpg"
+                    alt="Hover Image" class="hover-image">
+                </a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-container">
+                <a href="/CradPage.html">
+                  <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-22-450x600.jpg"
+                    alt="Original Image" class="original-image">
+                  <div class="image-pop">
+                    <p class="pop-p">S A L E !</p>
+                    <span class=" pop-p p-2">1 7 %</span>
+                  </div>
+                  <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-20-450x600.jpg"
+                    alt="Hover Image" class="hover-image">
+                </a>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <a href="/CradPage.html">
+                <div class="image-container">
+                  <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-20-450x600.jpg"
+                    alt="Original Image" class="original-image">
+                  <div class="image-pop">
+                    <p class="pop-p">S A L E !</p>
+                    <span class=" pop-p p-2">1 7 %</span>
+                  </div>
+                  <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-18-450x600.jpg"
+                    alt="Hover Image" class="hover-image">
+                </div>
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="/CradPage.html">
+                <div class="image-container">
+                  <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-19-450x600.jpg"
+                    alt="Original Image" class="original-image">
+                  <div class="image-pop">
+                    <p class="pop-p">S A L E !</p>
+                    <span class=" pop-p p-2">1 7 %</span>
+                  </div>
+                  <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-17-450x600.jpg"
+                    alt="Hover Image" class="hover-image">
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <a href="/CradPage.html">
+              <div class="image-container">
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-18-450x600.jpg"
+                  alt="Original Image" class="original-image">
+                <div class="image-pop">
+                  <p class="pop-p">S A L E !</p>
+                  <span class=" pop-p p-2">1 7 %</span>
+                </div>
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-16-450x600.jpg"
+                  alt="Hover Image" class="hover-image">
+              </div>
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <div class="image-container">
+              <a href="/CradPage.html">
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-17-450x600.jpg"
+                  alt="Original Image" class="original-image">
+                <div class="image-pop">
+                  <p class="pop-p">S A L E !</p>
+                  <span class=" pop-p p-2">1 7 %</span>
+                </div>
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product3-16-450x600.jpg"
+                  alt="Hover Image" class="hover-image">
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Banner-Cheak Coupouns -->
+    <div class="d-flex justify-content-between p-3">
+      <div class="Coupouns-1 d-flex justify-content-between align-items-center bg-danger-subtle w-50 p-4">
+        <div class="left">
+          <h3 class="le-heading text-danger">Our Policy: Best Price!</h3>
+          <h6 class="le-pra text-danger">Sign up to avoid missing discounts!</h5>
+        </div>
+        <div class="right">
+          <div class="btn btn-danger"><i class='bx bx-shopping-bag me-3'></i>Cheak Coupouns</div>
+        </div>
+      </div>
+      <div class="Coupouns-2 d-flex justify-content-between align-items-center bg-success-subtle w-50 ms-4 p-4">
+        <div class="left">
+          <h3 class="le-heading text-success">Our Policy: Best Price!</h3>
+          <h6 class="le-pra text-success">Sign up to avoid missing discounts!</h5>
+        </div>
+        <div class="right">
+          <div class="btn btn-success"><i class='bx bx-shopping-bag me-3'></i>Cheak Coupouns</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Find by Colors -->
+    <div class="container-fulid mt-5 p-2">
+      <div class="Colors d-flex justify-content-between align-items-center p-2">
+        <div class="h3">Find by Colors</div>
+        <div>
+          <ul class="d-flex gap-3">
+            <li class="list-inline"><a href="#" class="nav-link fw-bold">ALL PRODUCTS</a></li>
+            <li class="list-inline"><a href="#" class="nav-link">Color :<i
+                  class="fa-solid fa-circle text-dark  ps-2"></i></a></li>
+            <li class="list-inline"><a href="#" class="nav-link"><i
+                  class="fa-solid fa-circle text-primary  ps-1"></i></a>
+            </li>
+            <li class="list-inline"><a href="#" class="nav-link"><i class="fa-solid fa-circle   ps-1"
+                  style="color: #a87323;"></i></a></li>
+            <li class="list-inline"><a href="#" class="nav-link"><i
+                  class="fa-solid fa-circle text-success  ps-1"></i></a>
+            </li>
+            <li class="list-inline"><a href="#" class="nav-link"><i
+                  class="fa-solid fa-circle text-danger  ps-1"></i></a>
+            </li>
+            <li class="list-inline"><a href="#" class="nav-link"><i
+                  class="fa-solid fa-circle text-warning  ps-1"></i></a>
+            </li>
+
+          </ul>
+        </div>
+        <div class="d-flex ">
+          <p><a href="#" class="nav-link fw-noraml">All PRODUCTS</a></p> <i class='bx bx-right-arrow-alt fs-3 ms-2'></i>
+        </div>
+
+      </div>
+      <div class="best-products p-3">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="image-container">
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-24-450x600.jpg"
+                  alt="Original Image" class="original-image">
+                <div class="image-pop">
+                  <p class="pop-p">S A L E !</p>
+                  <span class=" pop-p p-2">1 7 %</span>
+                </div>
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-22-450x600.jpg"
+                  alt="Hover Image" class="hover-image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-container">
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-23-450x600.jpg"
+                  alt="Original Image" class="original-image">
+                <div class="image-pop">
+                  <p class="pop-p">S A L E !</p>
+                  <span class=" pop-p p-2">1 7 %</span>
+                </div>
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-21-450x600.jpg"
+                  alt="Hover Image" class="hover-image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-container">
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-22-450x600.jpg"
+                  alt="Original Image" class="original-image">
+                <div class="image-pop">
+                  <p class="pop-p">S A L E !</p>
+                  <span class=" pop-p p-2">1 7 %</span>
+                </div>
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-20-450x600.jpg"
+                  alt="Hover Image" class="hover-image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-container">
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-20-450x600.jpg"
+                  alt="Original Image" class="original-image">
+                <div class="image-pop">
+                  <p class="pop-p">S A L E !</p>
+                  <span class=" pop-p p-2">1 7 %</span>
+                </div>
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-18-450x600.jpg"
+                  alt="Hover Image" class="hover-image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-container">
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-19-450x600.jpg"
+                  alt="Original Image" class="original-image">
+                <div class="image-pop">
+                  <p class="pop-p">S A L E !</p>
+                  <span class=" pop-p p-2">1 7 %</span>
+                </div>
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-17-450x600.jpg"
+                  alt="Hover Image" class="hover-image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-container">
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-18-450x600.jpg"
+                  alt="Original Image" class="original-image">
+                <div class="image-pop">
+                  <p class="pop-p">S A L E !</p>
+                  <span class=" pop-p p-2">1 7 %</span>
+                </div>
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-16-450x600.jpg"
+                  alt="Hover Image" class="hover-image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-container">
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-17-450x600.jpg"
+                  alt="Original Image" class="original-image">
+                <div class="image-pop">
+                  <p class="pop-p">S A L E !</p>
+                  <span class=" pop-p p-2">1 7 %</span>
+                </div>
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product3-16-450x600.jpg"
+                  alt="Hover Image" class="hover-image">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Banner-Buy Products -->
+    <div class="d-flex justify-content-between p-3">
+      <div class="Coupouns-1 d-flex justify-content-between align-items-center w-50 p-4">
+        <div class="left">
+          <h3 class="le-heading text-danger">Our Policy: Best Price!</h3>
+          <h6 class="le-pra text-danger">Sign up to avoid missing discounts!</h5>
+        </div>
+        <div class="right">
+          <div class="btn btn-danger"><i class='bx bx-shopping-bag me-3'></i>Cheak Coupouns</div>
+        </div>
+      </div>
+      <div class="Coupouns-2 d-flex justify-content-between align-items-center bg-success-subtle w-50 ms-4 p-4">
+        <div class="left">
+          <h3 class="le-heading text-success">Our Policy: Best Price!</h3>
+          <h6 class="le-pra text-success">Sign up to avoid missing discounts!</h5>
+        </div>
+        <div class="right">
+          <div class="btn btn-success"><i class='bx bx-shopping-bag me-3'></i>Cheak Coupouns</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Find by Categories -->
+    <div class="container-fulid mt-5">
+      <div class="Categories d-flex justify-content-between align-items-center p-2">
+        <div class="h3">Find by Categories</div>
+        <div>
+          <ul class="d-flex gap-3">
+            <li class="list-inline"><a href="#" class="nav-link ">All PRODUCTS</a></li>
+            <li class="list-inline"><a href="#" class="nav-link ">KIDS</a></li>
+            <li class="list-inline"><a href="#" class="nav-link ">FESTIVE WEAR</a></li>
+            <li class="list-inline"><a href="#" class="nav-link ">ETHIC WEAR</a></li>
+            <li class="list-inline"><a href="#" class="nav-link ">MEN</a></li>
+            <li class="list-inline"><a href="#" class="nav-link ">WOMEN</a></li>
+          </ul>
+        </div>
+        <div class="d-flex ">
+          <p><a href="#" class="nav-link fw-noraml">All PRODUCTS</a></p> <i class='bx bx-right-arrow-alt fs-3 ms-2'></i>
+        </div>
+      </div>
+      <!-- Swiper -->
+      <div class="best-products p-3">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="image-container">
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-24-450x600.jpg"
+                  alt="Original Image" class="original-image">
+                <div class="image-pop">
+                  <p class="pop-p">S A L E !</p>
+                  <span class=" pop-p p-2">1 7 %</span>
+                </div>
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-22-450x600.jpg"
+                  alt="Hover Image" class="hover-image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-container">
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-23-450x600.jpg"
+                  alt="Original Image" class="original-image">
+                <div class="image-pop">
+                  <p class="pop-p">S A L E !</p>
+                  <span class=" pop-p p-2">1 7 %</span>
+                </div>
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-21-450x600.jpg"
+                  alt="Hover Image" class="hover-image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-container">
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-22-450x600.jpg"
+                  alt="Original Image" class="original-image">
+                <div class="image-pop">
+                  <p class="pop-p">S A L E !</p>
+                  <span class=" pop-p p-2">1 7 %</span>
+                </div>
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-20-450x600.jpg"
+                  alt="Hover Image" class="hover-image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-container">
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-20-450x600.jpg"
+                  alt="Original Image" class="original-image">
+                <div class="image-pop">
+                  <p class="pop-p">S A L E !</p>
+                  <span class=" pop-p p-2">1 7 %</span>
+                </div>
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-18-450x600.jpg"
+                  alt="Hover Image" class="hover-image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-container">
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-19-450x600.jpg"
+                  alt="Original Image" class="original-image">
+                <div class="image-pop">
+                  <p class="pop-p">S A L E !</p>
+                  <span class=" pop-p p-2">1 7 %</span>
+                </div>
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-17-450x600.jpg"
+                  alt="Hover Image" class="hover-image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-container">
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-18-450x600.jpg"
+                  alt="Original Image" class="original-image">
+                <div class="image-pop">
+                  <p class="pop-p">S A L E !</p>
+                  <span class=" pop-p p-2">1 7 %</span>
+                </div>
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-16-450x600.jpg"
+                  alt="Hover Image" class="hover-image">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-container">
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-17-450x600.jpg"
+                  alt="Original Image" class="original-image">
+                <div class="image-pop">
+                  <p class="pop-p">S A L E !</p>
+                  <span class=" pop-p p-2">1 7 %</span>
+                </div>
+                <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product3-16-450x600.jpg"
+                  alt="Hover Image" class="hover-image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- from you - happy customers -->
+    <div class="container-fulid happy mt-5">
+      <p class="happy-cus px-4 py-2 rounded">
+        FROM YOU - HAPPY CUSTOMERS
+      </p>
+      <div id="carouselExampleAutoplaying" class="carousel slide happy-slide " data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active bg-light p-5 text-center rounded">
+            <p>This is due to their excellent service, competitive pricing and customer support. It’s throughly
+              refresing to get such a personal touch. Duis aute lorem ipsum is simply free text irure dolor in
+              reprehenderit </p>
+            <div class="d-flex justify-content-center gap-3 mt-5">
+              <div class="avtar"><img
+                  src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-30-100x100.jpg" alt=""
+                  class="img-fulid rounded-circle"></div>
+              <div class="text fw-noraml ">
+                <p>Albert Done <br> Customer</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active bg-light p-5 text-center rounded">
+            <p>This is due to their excellent service, competitive pricing and customer support. It’s throughly
+              refresing to get such a personal touch. Duis aute lorem ipsum is simply free text irure dolor in
+              reprehenderit </p>
+            <div class="d-flex justify-content-center gap-3 mt-5">
+              <div class="avtar"><img
+                  src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product4-15-100x100.jpg" alt=""
+                  class="img-fulid rounded-circle"></div>
+              <div class="text fw-noraml ">
+                <p>Albert Done <br> Customer</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active bg-light p-5 text-center rounded">
+            <p>This is due to their excellent service, competitive pricing and customer support. It’s throughly
+              refresing to get such a personal touch. Duis aute lorem ipsum is simply free text irure dolor in
+              reprehenderit </p>
+            <div class="d-flex justify-content-center gap-3 mt-5">
+              <div class="avtar"><img
+                  src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-38-100x100.jpg" alt=""
+                  class="img-fulid rounded-circle"></div>
+              <div class="text fw-noraml ">
+                <p>Albert Done <br> Customer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- Current articles from anarkali -->
+    <div class="container-fulid mt-5">
+      <p class="h1 text-center">Current articles from anarkali</p>
+      <p class="h6 text-center mt-3">Cardigan helvetica sriracha, portland celiac truffaut</p>
+
+      <div class="swiper mySwiper-3 mt-5">
+        <div class="swiper-wrapper p-4 ms-3">
+          <div class="swiper-slide Current rounded">
+            <div
+              style="background-image: url(&quot;https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-8.jpg&quot;);"
+              class="h-100  cur-img">
+              <div class="cu-text text-light">
+                <div class="d-flex gap-5">
+                  <span class="ms-4">ADMIN</span>
+                  <p>SEMTEMBER 9,2021</p>
+                </div>
+                <span class="fs-3 text-strat">Winter dark mode women
+                </span>
+                <p class="fs-3 text-start ms-2">modren shoes</p>
+                <p class="text-start ms-2">
+                  Take all negative words out of your mental <br>
+                <p class=" text-start ms-2">dictionary and focus on the...</p>
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide Current rounded">
+            <div
+              style="background-image: url(&quot;https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product1-1.jpg&quot;);"
+              class="h-100  cur-img">
+              <div class="cu-text text-light">
+                <div class="d-flex gap-5">
+                  <span class="ms-4">ADMIN</span>
+                  <p>SEMTEMBER 9,2021</p>
+                </div>
+                <span class="fs-3 text-strat">Winter dark mode women
+                </span>
+                <p class="fs-3 text-start ms-2">modren shoes</p>
+                <p class="text-start ms-2">
+                  Take all negative words out of your mental <br>
+                <p class=" text-start ms-2">dictionary and focus on the...</p>
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide Current rounded">
+            <div
+              style="background-image: url(&quot;https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-16.jpg&quot;);"
+              class="h-100  cur-img">
+              <div class="cu-text text-light">
+                <div class="d-flex gap-5">
+                  <span class="ms-4">ADMIN</span>
+                  <p>SEMTEMBER 9,2021</p>
+                </div>
+                <span class="fs-3 text-strat">Winter dark mode women
+                </span>
+                <p class="fs-3 text-start ms-2">modren shoes</p>
+                <p class="text-start ms-2">
+                  Take all negative words out of your mental <br>
+                <p class=" text-start ms-2">dictionary and focus on the...</p>
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide Current rounded">
+            <div
+              style="background-image: url(&quot;https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2.jpg&quot;);"
+              class="h-100  cur-img">
+              <div class="cu-text text-light">
+                <div class="d-flex gap-5">
+                  <span class="ms-4">ADMIN</span>
+                  <p>SEMTEMBER 9,2021</p>
+                </div>
+                <span class="fs-3 text-strat">Winter dark mode women
+                </span>
+                <p class="fs-3 text-start ms-2">modren shoes</p>
+                <p class="text-start ms-2">
+                  Take all negative words out of your mental <br>
+                <p class=" text-start ms-2">dictionary and focus on the...</p>
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide Current rounded">
+            <div
+              style="background-image: url(&quot;https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product4-21.jpg&quot;);"
+              class="h-100  cur-img">
+              <div class="cu-text text-light">
+                <div class="d-flex gap-5">
+                  <span class="ms-4">ADMIN</span>
+                  <p>SEMTEMBER 9,2021</p>
+                </div>
+                <span class="fs-3 text-strat">Winter dark mode women
+                </span>
+                <p class="fs-3 text-start ms-2">modren shoes</p>
+                <p class="text-start ms-2">
+                  Take all negative words out of your mental <br>
+                <p class=" text-start ms-2">dictionary and focus on the...</p>
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide Current rounded">
+            <div
+              style="background-image: url(&quot;https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/09/product2-32.jpg&quot;);"
+              class="h-100  cur-img">
+              <div class="cu-text text-light">
+                <div class="d-flex gap-5">
+                  <span class="ms-4">ADMIN</span>
+                  <p>SEMTEMBER 9,2021</p>
+                </div>
+                <span class="fs-3 text-strat">Winter dark mode women
+                </span>
+                <p class="fs-3 text-start ms-2">modren shoes</p>
+                <p class="text-start ms-2">
+                  Take all negative words out of your mental <br>
+                <p class=" text-start ms-2">dictionary and focus on the...</p>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Follow On Instagram -->
+    <div>
+
+
+      <div class="container-fulid mt-5">
+        <div class="h1 text-center">Follow On<span class="ps-2"><a href="#" class="text-dark">Instagram</a></span></div>
+        <div class="follow-text text-center mt-3">
+          <span class="text-secondary "><a href="#" class="text-dark pe-2">Follow</a>to be informed about campaigns and
+            collections <a href="#" class="text-dark pe-">@Anarkali</a></span>
+        </div>
+      </div>
+      <div class="swiper mySwiper-4 mt-5">
+        <div class="swiper-wrapper p-3 ">
+          <div class="swiper-slide Follow">
+            <a href="#"> <img
+                src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/banner-500x500-1.png" alt=""></a>
+          </div>
+          <div class="swiper-slide Follow">
+            <a href="#"><img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/banner-500x500-3.png"
+                alt=""></a>
+          </div>
+          <div class="swiper-slide Follow">
+            <a href="#"><img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/banner-500x500-4.png"
+                alt=""></a>
+          </div>
+          <div class="swiper-slide Follow">
+            <a href="#"><img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/banner-500x500-5.png"
+                alt=""></a>
+          </div>
+          <div class="swiper-slide Follow"><a href="#"><img
+                src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/banner-500x500-6.png" alt=""></a>
+          </div>
+          <div class="swiper-slide Follow"><a href="#"><img
+                src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/banner-500x500-7.png" alt=""></a>
+          </div>
+          <div class="swiper-slide Follow">
+            <a href="#"> <img
+                src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/banner-500x500-1.png" alt=""></a>
+          </div>
+          <div class="swiper-slide Follow">
+            <a href="#"><img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/banner-500x500-3.png"
+                alt=""></a>
+          </div>
+          <div class="swiper-slide Follow">
+            <a href="#"><img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/banner-500x500-4.png"
+                alt=""></a>
+          </div>
+          <div class="swiper-slide Follow">
+            <a href="#"><img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/banner-500x500-5.png"
+                alt=""></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container d-flex justify-content-between mt-5 p-3">
+        <div class="d-flex align-items-center gap-3">
+          <p><i class="fa-solid fa-truck fs-2"></i></p>
+          <span>
+            <p class=" h4 ">Free Shoping</p>
+            <p class="text-secondary">Standard Shipping</p>
+          </span>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+          <p><i class='bx bx-shopping-bag fs-1'></i></p>
+          <span>
+            <p class=" h4">Secure Payment</p>
+            <p class="text-secondary">100% risk-free shopping</p>
+          </span>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+          <p><i class='bx bx-gift fs-1 '></i></p>
+          <span>
+            <p class=" h4">Special Campaigns</p>
+            <p class="text-secondary">Guaranteed Saving</p>
+          </span>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+          <p><i class='bx bx-user fs-1'></i></p>
+          <span>
+            <p class="h4">Customer Service</p>
+            <p class="text-secondary">Give us feedback</p>
+          </span>
+        </div>
+      </div>
+      <hr>
+      <div class=" row mt-5 p-3">
+        <div class="col-lg-2">
+          <h4 class="text-uppercase">About Styler</h4>
+          <p class="text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+          <div class="d-flex gap-3 fs-3">
+            <i class='bx bxl-facebook'></i><i class='bx bxl-twitter'></i><i class='bx bxl-youtube'></i>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <h4 class="text-uppercase">Categories</h4>
+          <ul class="text-secondary">
+            <li class="list-inline"><a href="#" class="nav-link">Winter Shoes</a></li>
+            <li class="list-inline"><a href="#" class="nav-link">Women T-shirts</a></li>
+            <li class="list-inline"><a href="#" class="nav-link">%50 Sales</a></li>
+            <li class="list-inline"><a href="#" class="nav-link">Outlet</a></li>
+            <li class="list-inline"><a href="#" class="nav-link">Pre-Sale</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <h4 class="text-uppercase">Campaigns</h4>
+          <ul class="text-secondary">
+            <li class="list-inline"><a href="#" class="nav-link">Women Denim</a></li>
+            <li class="list-inline"><a href="#" class="nav-link">Accessories</a></li>
+            <li class="list-inline"><a href="#" class="nav-link">Man Denim</a></li>
+            <li class="list-inline"><a href="#" class="nav-link">Clothes</a></li>
+            <li class="list-inline"><a href="#" class="nav-link">Shoes</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <h4 class="text-uppercase">Help</h4>
+          <ul class="text-secondary">
+            <li class="list-inline"><a href="#" class="nav-link">Order Tracking</a></li>
+            <li class="list-inline"><a href="#" class="nav-link">Terms & Conditions</a></li>
+            <li class="list-inline"><a href="#" class="nav-link">Privacy Policy</a></li>
+            <li class="list-inline"><a href="#" class="nav-link">Tutorials</a></li>
+            <li class="list-inline"><a href="#" class="nav-link">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h4 class="py-3 text-uppercase">Newsletter</h4>
+          <input type="text" placeholder="Your E-mail" class="w-100 p-2 text-center ">
+          <div class="btn btn-dark w-100 mt-2">Submit</div>
+          <span class="text-secondary ">Sign up to get the latest on new Products, Promotions, Design news and
+            more</span>
+        </div>
+      </div>
+
+      <div class="bg-dark text-light d-flex justify-content-between p-3 align-items-center">
+        <div>
+          <span class="h5">TEL : 0980 444 45 456
+            -
+            MAIL : HELLO@DEMO.COM</span>
+        </div>
+        <img src="https://ninetheme.com/themes/anarkali/wp-content/uploads/2023/11/os_kartlar_x2.svg" alt=""
+          class="img-fulid w-25 me-3 ">
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- autoplay
+   autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+  -->
+<!-- animations -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!-- slider -->
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 5,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+  });
+
+</script>
+<!-- happy -->
+<script>
+  var swiper = new Swiper(".mySwiper-2", {
+    slidesPerView: 2,
+    spaceBetween: 60,
+    autoplay: {
+      delay: 5500,
+      disableOnInteraction: false,
+    },
+  });
+
+</script>
+<!-- Current -->
+<script>
+  var swiper = new Swiper(".mySwiper-3", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+  });
+</script>
+<!-- Follow instagram -->
+<script>
+  var swiper = new Swiper(".mySwiper-4", {
+    slidesPerView: 1,
+    spaceBetween: 5,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+  });
+</script>
+
+</html>
