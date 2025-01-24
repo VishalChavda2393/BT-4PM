@@ -311,4 +311,56 @@ body {
   }
 }
 
+@media (min-width:1440px){
+  .navbar {
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background: linear-gradient(
+        to bottom,
+        rgba(92, 77, 66, 0.8) 0%,
+        rgba(92, 77, 66, 0.8) 100%
+      ),
+      url("https://startbootstrap.github.io/startbootstrap-creative/assets/img/bg-masthead.jpg");
+    background-position: center;
+    object-fit: cover !important;
+    overflow-x: hidden !important;
+  }
+  .Main {
+    position: absolute;
+  }
+  .Main .h3 {
+    font-size: 52px;
+    position: absolute;
+    bottom: -10px;
+    right: 100px;
+  }
+  .Main .pop {
+    position: absolute;
+    top: 10px;
+    right: 430px;
+    width: 50px;
+    height: 3px;
+    background-color: orangered;
+  }
+  
+  .Main .sub {
+    font-size: 23px;
+    position: absolute;
+    top: 40px;
+    right: -80px;
+    /* border: 2px solid orange; */
+  }
+  
+  .Main .btn {
+    position: absolute;
+    top: 150px;
+    left: 800px;
+    background-color: orangered;
+  
+  }
+  .Main .btn:hover {
+    background-color: #f36141;
+  }
 
+}
